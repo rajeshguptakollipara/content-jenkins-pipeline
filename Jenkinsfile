@@ -9,7 +9,7 @@ sh 'jar -cvmf MANIFEST.MF rectangle.jar *.class'
 }
 stage('run')
 {
-sh 'java -jar rectangle.jar 100 200 
+sh 'java -jar rectangle.jar 100 200' 
 }
 }}
 post{
